@@ -1,0 +1,11 @@
+.smart-device-board {
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    .smart-device-board {
+        flex-direction: column;
+        margin: 20px 0;
+        height: auto;
+    }
+}

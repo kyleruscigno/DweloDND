@@ -1,0 +1,33 @@
+.device-card {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.device-card .card-body {
+    padding: 0;
+}
+
+.device-card-name {
+    font-size: 1rem;
+}
+
+.device-card-type {
+    color: #777;
+    font-size: .8rem;
+}
+
+.device-card-link {
+    font-size: .8rem;
+}
+
+.device-detail-name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600
+}
+
+.device-detail-type {
+    display: block;
+}

@@ -5,9 +5,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #2f344a;
+  font-family: 'Exo 2', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, html {
+  height: 100vh;
+}
+
+.app, #root {
+  height: 100%;
+}
+
+.app {
+  max-height: 100vh;
+}
+
+.app-header, .app-footer {
+  background-color: #ededed;
+  padding: 30px;
+}
+
+.app-main {
+  background-color: white;
+  padding: 30px;
+  height: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 #777 inset;
+}
+
+@media (max-width: 991px) {
+  .app-main {
+      overflow: auto;
+      height: auto;
+  }
+}
+
+.app-logo {
+  width: 100%;
+  max-width: 100px;
+}
+
+.app-heading {
+  font-size: 2rem;
+  font-weight: 600;
 }
