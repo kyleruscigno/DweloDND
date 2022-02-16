@@ -1,4 +1,4 @@
-import logo from './dwelo.png';
+import logo from './resources/dwelo.png';
 import strings from './resources/strings.js'
 import './App.css';
 import SmartDeviceBoard from './components/SmartDeviceBoard';

@@ -1,18 +1,20 @@
 # Dwelo Drag-And-Drop Assignment
 This project allows users to drag and drop devices between different status groups to visually assign them and update their underlying data. The design is responsive and adjusts the layout on mobile. This project relies on certain libraries and frameworks to add functionality.
-React and Create-React-App are used to bootstrap the application
-ReactStrap is used for quick styling
-DND-Kit is used to assist with Drag-And-Drop functionality (https://dndkit.com/)
+React and Create-React-App are used to bootstrap the application.
+ReactStrap is used for quick styling.
+DND-Kit is used to assist with Drag-And-Drop functionality (https://dndkit.com/).
 
 === DIRECTORY STRUCTURE ===
+
 - /src is the root of the application with index.js & App.js the entry point
 - /components defines different react components used to build the UI
 - /logic defines helper functions and data transforms used to manipulate the incoming dummy data for the project, and transforn underlying data when certain actions are performed (such as moving a device to a new status group)
 - /models defines data structures for the project (in this case the available status groups)
 - /resources is a catch all for different content resources used in the project (for instance all strings are grouped here so they can be localized)
-- /styles defines the css styles, and are named to associate them with their corresponsind ui component
+- /styles defines the css styles, and are named to associate them with their corresponding ui component
 
 === RUNNING TESTS AND SERVER ===
+
 Certain Tests are provided in files with the extension test.js
 to run the given tests please use the command 'npm test'
 
@@ -20,6 +22,7 @@ To start CRA's development server please use the command 'npm start'
 and navigate to http://localhost:3000/ if it does not open automatically
 
 === KNOWN BUGS ===
+
 Dragged elements will float towards the bottom of the list when dropped, even if it is currently offscreen due to being in a scrollable container
 
 
